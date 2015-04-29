@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("images/stary_night.jpg") no-repeat fixed center;
+	background-size: cover;
+	background-position: center;
+	font-family: "Megrim", cursive;
+	text-align: center;
+}
+
+.content {
+	max-width: 425px;
+	margin: 0 auto;
+	color: #FA4B80;
+	padding-top: 100px;
+}
+
+.avatar {
+	height: 200px;
+	width: 200px;
+	background: url("images/epps_avatar.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	border: 6px solid #FA4B80;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 25px;
+	margin-top: 10px;
+	line-height: 175%;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+}
+
+.icons a {
+	text-decoration: none;
+	font-size: 45px;
+	color: #FA4B80;
+	transition: font-size .5s ease-in-out;
+}
+.icons a:hover, .icons a:focus {
+	color: #FB7BA2;
+	font-size: 55px;
+}
+
+.typedModal {
+	text-decoration: none;
+	color: #FF804D;
+}
+
+.typedModal:hover, .typedModal:focus {
+	text-decoration: none;
+	color: #48F0A8;
+	outline: none;
+}
+
+.tooltip {
+	font-family: 'Megrim', cursive;
+	font-size: 25px;
+}
+
+.modal-body {
+	background-color: rgba(114,245,189, .85);
+}
+
+.btn-primary {
+	border-radius: 0;
+	background-color: #F3004A;
+	border: 2px solid #FDA8C2;
+}
+
+.btn-primary:hover {
+	background-color: #FDA8C2;
+	border: 2px solid #F3004A;
+}
+
+/*Typed.js*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
