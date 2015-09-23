@@ -1,1 +1,3 @@
-# ga_wdi_admissions_assignment
+# Single Page Bio Site
+
+Just a single page bio site to practice Bootstrap3.
